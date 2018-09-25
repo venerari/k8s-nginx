@@ -24,6 +24,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:latest
+        image: venerari/nginx-test:nginx
         ports:
         - containerPort: 80
