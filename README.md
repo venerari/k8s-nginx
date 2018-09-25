@@ -10,5 +10,5 @@ kubectl delete svc/my-nginx-svc
 
 $ docker run -d --restart=always -e DOMAIN=cluster --name nginx-app -p 80:80 nginx
 
-$ kubectl run --image=nginx nginx-app --port=80 --env="DOMAIN=cluster"
+$ kubectl run --image=nginx nginx-app --port=80 --env="DOMAIN=cluster"<br>
 $ kubectl expose deployment nginx-app --port=80 --name=nginx-http
