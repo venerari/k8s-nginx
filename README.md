@@ -1,3 +1,3 @@
 # k8s-nginx
 
-kubectl apply -f https://github.com/venerari/k8s-nginx.git
+kubectl apply -f https://raw.githubusercontent.com/venerari/k8s-nginx/master/nginx.yml
